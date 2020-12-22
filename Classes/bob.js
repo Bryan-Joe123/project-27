@@ -1,7 +1,7 @@
 class bob{
     constructor(x,y,height,mode){
         var box_option={
-            restitution:1.2,
+            restitution:1,
             friction:1.0,
             density:1
         }

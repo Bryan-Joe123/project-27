@@ -66,7 +66,7 @@ function draw() {
   bob5.display();
 	
   if(keyWentDown("up_arrow")){
-       Matter.Body.applyForce(bob1.body,bob1.pos,{x:-400,y:0})
+       Matter.Body.applyForce(bob5.body,bob1.pos,{x:-400,y:0})
   }
 
 
