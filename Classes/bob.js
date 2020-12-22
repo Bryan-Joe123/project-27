@@ -13,9 +13,6 @@ class bob{
         this.mode=mode
     }
     display(){
-        if(keyWentDown("up_arrow")&&this.mode=="main"){
-            Matter.Body.applyForce(this.body,this.pos,{x:-400,y:0})
-        }
         fill(rgb(250, 94, 55));
         rectMode(CENTER);
         strokeWeight(2);
