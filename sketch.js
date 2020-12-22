@@ -64,8 +64,10 @@ function draw() {
 
   rope5.display();
   bob5.display();
-
-
+	
+  if(keyWentDown("up_arrow"){
+       Matter.Body.applyForce(bob1.body,this.pos,{x:-400,y:0})
+  }
 
 
   roof1.display();
